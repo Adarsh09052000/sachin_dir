@@ -1,6 +1,6 @@
 pipeline{
     agent any
-    environments{
+    environment{
         CREDENTIALS_ID = "terraform-service-account"
     }
     stages{

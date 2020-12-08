@@ -4,7 +4,7 @@ provider "google"{
 
 resource "google_compute_instance" "gcp_instance" {
   name = "terraform-instance"
-  zone = "us-central1-a"
+  zone = "us-east1-d"
   machine_type = "n1-standard-2"
   boot_disk {
     initialize_params {
